@@ -1,0 +1,1354 @@
+@font-face {
+  font-family: pork;
+  src: url(PORKYS_.TTF);
+}
+
+@font-face {
+  font-family: heart;
+  src: url(rainyhearts.ttf);
+}
+
+@font-face {
+  font-family: banana;
+  src: url(Banana\ Stick.otf);
+}
+
+@font-face {
+  font-family: love;
+  src: url(Love.ttf);
+}
+
+@font-face {
+  font-family: cheri;
+  src: url(CHERI___.TTF);
+}
+
+@font-face {
+  font-family: take;
+  src: url(Takeover.ttf);
+}
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  height: 95vh;
+}
+
+.all {
+  width: 98vw;
+  height: 98vh;
+}
+
+.all .title {
+  font-size: 50px;
+  margin-left: 530px;
+  position: absolute;
+  font-family: pork;
+  color: pink;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ba6565;
+  border-radius: 20px;
+  outline-color: white;
+}
+
+.all p {
+  position: absolute;
+  font-family: take;
+  color: hotpink;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #c52c50;
+  margin-top: -100px;
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+.mochi img {
+  border-radius: 150%;
+  border: greenyellow solid 10px;
+  width: 200px;
+  height: auto;
+  margin-left: 130px;
+  position: absolute;
+  top: 0;
+}
+
+.side {
+  width: 25vw;
+  height: 100vh;
+  border-right: greenyellow solid 10px;
+  background: url(bag.webp);
+  margin-top: -8px;
+  margin-left: -80px;
+}
+
+.option {
+  position: relative;
+  bottom: 355px;
+}
+
+.option li {
+  font-size: 40px;
+  list-style-type: none;
+  margin-left: -10px;
+  font-family: cheri;
+  background-color: white;
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+  border: rgb(255, 255, 145) solid 5px;
+}
+
+.option a {
+  text-decoration: none;
+  color: rgb(126, 188, 227);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3a5673;
+}
+
+.body {
+  width: 800px;
+  margin-left: 400px;
+  position: relative;
+  height: 250px;
+  border: rgb(141, 183, 237) solid 5px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: 0 -120px;
+  margin-top: -600px;
+  position: absolute;
+  background-color: white;
+}
+
+.body img {
+  width: 100px;
+  height: auto;
+  margin-left: 600px;
+  margin-top: -300px;
+}
+
+.body h2 {
+  font-family: banana;
+  font-size: 60px;
+  color: rgb(218, 238, 190);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #52b86d;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.body p {
+  font-family: banana;
+  font-size: 20px;
+  color: rgb(218, 238, 190);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #52b86d;
+  margin-left: 70px;
+  margin-top: -55px;
+}
+
+.aall {
+  width: 98vw;
+  height: 860px;
+}
+
+.aall .atitle {
+  font-size: 30px;
+  margin-left: 650px;
+  position: absolute;
+  font-family: pork;
+  color: pink;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ba6565;
+  border-radius: 20px;
+  outline-color: white;
+}
+
+.aside {
+  width: 25vw;
+  height: 180vh;
+  border-right: greenyellow solid 10px;
+  background: url(bag.webp);
+  margin-top: -8px;
+  margin-left: -80px;
+}
+
+.aoption {
+  position: relative;
+  bottom: 850px;
+}
+
+.aoption li {
+  font-size: 40px;
+  list-style-type: none;
+  margin-left: -10px;
+  font-family: cheri;
+  background-color: white;
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+  border: rgb(255, 255, 145) solid 5px;
+}
+
+.aoption a {
+  text-decoration: none;
+  color: rgb(126, 188, 227);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3a5673;
+}
+
+.aboutus {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -750px;
+}
+
+.aboutus .lisa {
+  font-family: take;
+  font-size: 20px;
+  color: rgb(143, 47, 181);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(90, 45, 126);
+  margin-top: -450px;
+  border: 3px solid rgb(139, 19, 190);
+  margin-left: 60px;
+  width: 350px;
+  background: url(lisabg.jpeg);
+  height: 900px;
+  border-radius: 20px;
+}
+
+.aboutus .lisa h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutus .lisa .A {
+  margin-left: 19px;
+  background-color: rgb(255, 255, 194);
+  width: 160px;
+  border-radius: 10px;
+}
+
+.aboutus .lisa .up {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.aboutus .lisa .L {
+  margin-left: 19px;
+  background-color: rgb(255, 255, 194);
+  width: 100px;
+  border-radius: 10px;
+}
+
+.aboutus .lisa .D {
+  margin-left: 19px;
+  background-color: rgb(255, 255, 194);
+  width: 120px;
+  border-radius: 10px;
+  margin-top: -65px;
+}
+
+.aboutus .lisa .ulisa {
+  margin-left: 20px;
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.aboutus .mercy {
+  font-family: take;
+  font-size: 20px;
+  color: rgb(0, 106, 255);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(47, 64, 159);
+  margin-top: -907px;
+  border: 3px solid rgb(53, 23, 222);
+  margin-left: 450px;
+  width: 350px;
+  background: url(meecybg.jpeg);
+  height: 901px;
+  border-radius: 20px;
+}
+
+.aboutus .mercy h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutus .mercy .A {
+  margin-left: 19px;
+  background-color: rgb(252, 185, 222);
+  width: 160px;
+  border-radius: 10px;
+}
+
+.aboutus .mercy .ui {
+  font-size: 30px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.aboutus .mercy .M {
+  margin-left: 19px;
+  background-color: rgb(252, 185, 222);
+  width: 100px;
+  border-radius: 10px;
+}
+
+.aboutus .mercy .D {
+  margin-left: 19px;
+  background-color: rgb(252, 185, 222);
+  width: 120px;
+  border-radius: 10px;
+  margin-top: -65px;
+}
+
+.aboutus .mercy .umecy {
+  margin-left: 20px;
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.call {
+  width: 98vw;
+  height: 98vh;
+}
+
+.call .ctitle {
+  font-size: 40px;
+  margin-left: 650px;
+  position: absolute;
+  font-family: pork;
+  color: pink;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #ba6565;
+  border-radius: 20px;
+  outline-color: white;
+}
+
+.call .ctitle h1 {
+  margin-top: 0px;
+}
+
+.cside {
+  width: 25vw;
+  height: 180vh;
+  border-right: greenyellow solid 10px;
+  background: url(bag.webp);
+  margin-top: -8px;
+  margin-left: -80px;
+}
+
+.coption {
+  position: relative;
+  bottom: 850px;
+}
+
+.coption li {
+  font-size: 40px;
+  list-style-type: none;
+  margin-left: -10px;
+  font-family: cheri;
+  background-color: white;
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+  border: rgb(255, 255, 145) solid 5px;
+}
+
+.coption a {
+  text-decoration: none;
+  color: rgb(126, 188, 227);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3a5673;
+}
+
+.mochi img {
+  border-radius: 150%;
+  border: greenyellow solid 10px;
+  width: 200px;
+  height: auto;
+  margin-left: 130px;
+  position: absolute;
+  top: 0;
+}
+
+.credits {
+  width: 800px;
+  margin-left: 400px;
+  position: relative;
+  height: 480px;
+  border: rgb(141, 183, 237) solid 5px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: 0 -120px;
+  margin-top: -740px;
+  position: absolute;
+  background-color: white;
+}
+
+.credits img {
+  width: 100px;
+  height: auto;
+  margin-left: 650px;
+  margin-top: -50px;
+}
+
+.credits p {
+  font-family: banana;
+  font-size: 50px;
+  color: rgb(218, 238, 190);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #52b86d;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.credits li {
+  font-size: 40px;
+  list-style-type: none;
+  margin-left: -10px;
+  font-family: love;
+
+  width: 180px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.credits a {
+  text-decoration: none;
+  color: rgb(126, 188, 227);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #3a5673;
+}
+
+.photo img {
+  width: 250px;
+  height: 150px;
+  margin-top: -120px;
+  margin-left: 470px;
+  border-radius: 50px;
+  border: pink dotted 5px;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 75%;
+  }
+  .body {
+    bottom: 300px;
+    position: relative;
+    height: 500px;
+    left: 300px;
+  }
+
+  .body h2 {
+    font-size: 100px;
+  }
+
+  .body p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+
+  .body img {
+    width: 200px;
+    height: auto;
+    margin-top: -40px;
+    margin-left: 50px;
+  }
+
+  .title {
+    position: relative;
+    left: 300px;
+  }
+
+  .mochi img {
+    width: 290px;
+    height: auto;
+    margin-left: 240px;
+  }
+
+  .option {
+    margin-top: -100px;
+  }
+
+  .option li {
+    width: 295px;
+    height: 65px;
+    margin-left: 30px;
+  }
+
+  .option li a {
+    font-size: 60px;
+  }
+
+  .atitle {
+    position: relative;
+    left: 350px;
+  }
+
+  .aoption {
+    margin-top: 170px;
+  }
+
+  .aoption li {
+    width: 295px;
+    height: 65px;
+    margin-left: 30px;
+  }
+
+  .aoption li a {
+    font-size: 60px;
+  }
+
+  .aall {
+    width: 500px;
+  }
+
+  .aside {
+    height: 120vh;
+  }
+
+  .aboutus {
+    bottom: 700px;
+    position: relative;
+    height: 100vh;
+    left: 300px;
+  }
+
+  .lisa {
+    height: 100v;
+  }
+
+  .aboutus .lisa {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(143, 47, 181);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(90, 45, 126);
+    margin-top: -450px;
+    border: 3px solid rgb(139, 19, 190);
+    margin-left: 60px;
+    width: 350px;
+    background: url(lisabg.jpeg);
+    height: 940px;
+    border-radius: 20px;
+  }
+
+  .aboutus .mercy {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(0, 106, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(47, 64, 159);
+    margin-top: -945px;
+    border: 3px solid rgb(53, 23, 222);
+    margin-left: 450px;
+    width: 350px;
+    background: url(meecybg.jpeg);
+    height: 941px;
+    border-radius: 20px;
+  }
+
+  .ctitle {
+    position: relative;
+    left: 300px;
+    top: 100px;
+  }
+
+  .coption {
+    margin-top: -100px;
+  }
+
+  .coption li {
+    width: 295px;
+    height: 65px;
+    margin-left: 30px;
+  }
+
+  .coption li a {
+    font-size: 60px;
+  }
+
+  .ctitle {
+    position: relative;
+    left: 350px;
+  }
+
+  .coption {
+    margin-top: 300px;
+  }
+
+  .coption li {
+    width: 295px;
+    height: 65px;
+    margin-left: 30px;
+  }
+
+  .coption li a {
+    font-size: 60px;
+  }
+
+  .call {
+    width: 500px;
+  }
+
+  .cside {
+    height: 100vh;
+  }
+
+  .credits {
+    width: 800px;
+    margin-left: 700px;
+    position: relative;
+    height: 480px;
+    border: rgb(141, 183, 237) solid 5px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 -120px;
+    margin-top: -1240px;
+    position: absolute;
+    background-color: white;
+  }
+
+  .credits img {
+    width: 100px;
+    height: auto;
+    margin-left: 650px;
+    margin-top: -50px;
+  }
+
+  .credits p {
+    font-family: banana;
+    font-size: 50px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .credits li {
+    font-size: 40px;
+    list-style-type: none;
+    margin-left: -10px;
+    font-family: love;
+
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .credits a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+  }
+
+  .photo img {
+    width: 250px;
+    height: 150px;
+    margin-top: -120px;
+    margin-left: 470px;
+    border-radius: 50px;
+    border: pink dotted 5px;
+  }
+}
+
+@media (max-width: 1391px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .body {
+    width: 700px;
+    margin-left: 150px;
+    position: relative;
+    height: 350px;
+    border: rgb(141, 183, 237) solid 5px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 -120px;
+    margin-bottom: -230px;
+    position: absolute;
+    background-color: white;
+  }
+
+  .body h2 {
+    font-size: 50px;
+  }
+
+  .all .body p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+
+  .body img {
+    width: 150px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 500px;
+  }
+
+  .all {
+    width: 98vw;
+    height: 98vh;
+  }
+
+  .all .title {
+    font-size: 50px;
+    margin-left: 240px;
+    margin-top: -40px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .all p {
+    position: absolute;
+    font-family: take;
+    color: hotpink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #c52c50;
+    margin-top: -100px;
+    font-size: 35px;
+    margin-left: 100px;
+  }
+
+  .mochi img {
+    border-radius: 150%;
+    border: greenyellow solid 10px;
+    width: 200px;
+    height: auto;
+    margin-left: 130px;
+    position: absolute;
+    top: 0;
+  }
+
+  .option {
+    position: relative;
+    bottom: 270px;
+  }
+
+  .option li {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .option ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 40px;
+  }
+
+  .aall .body p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+
+  .aall {
+    width: 70vw;
+  }
+
+  .aall .atitle {
+    font-size: 50px;
+    margin-left: 240px;
+    margin-top: -40px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .aall p {
+    position: absolute;
+    font-family: take;
+    color: hotpink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #c52c50;
+    margin-top: -100px;
+    font-size: 35px;
+    margin-left: 100px;
+  }
+
+  .aoption {
+    position: relative;
+    bottom: 954px;
+  }
+
+  .aoption li {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .aoption ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 40px;
+  }
+
+  .aside {
+    height: 170vh;
+  }
+
+  .aall .atitle {
+    font-size: 30px;
+    margin-left: 310px;
+    margin-top: -10px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .aboutus .lisa {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(143, 47, 181);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(90, 45, 126);
+    margin-top: 130px;
+    border: 3px solid rgb(139, 19, 190);
+    margin-left: -240px;
+    width: 350px;
+    background: url(lisabg.jpeg);
+    height: 900px;
+    border-radius: 20px;
+  }
+
+  .aboutus .mercy {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(0, 106, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(47, 64, 159);
+    margin-top: -907px;
+    border: 3px solid rgb(53, 23, 222);
+    margin-left: 150px;
+    width: 350px;
+    background: url(meecybg.jpeg);
+    height: 901px;
+    border-radius: 20px;
+  }
+
+  .call {
+    width: 88vw;
+    height: 97vh;
+  }
+
+  .call .ctitle {
+    font-size: 30px;
+    margin-left: 340px;
+    margin-top: -70px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .coption {
+    position: relative;
+    bottom: 649px;
+  }
+
+  .coption li {
+    list-style-type: none;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .coption ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 40px;
+  }
+
+  .call .body p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+
+  .cside {
+    height: 100vh;
+  }
+
+  .credits {
+    width: 720px;
+    margin-left: 420px;
+    position: relative;
+    height: 450px;
+    border: rgb(141, 183, 237) solid 5px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 -120px;
+    margin-top: -1020px;
+    position: absolute;
+    background-color: white;
+  }
+
+  .credits img {
+    width: 100px;
+    height: auto;
+    margin-left: 610px;
+    margin-top: -50px;
+  }
+
+  .credits p {
+    font-family: banana;
+    font-size: 40px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .credits li {
+    font-size: 40px;
+    list-style-type: none;
+    margin-left: -10px;
+    font-family: love;
+
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .credits a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+  }
+
+  .photo img {
+    width: 250px;
+    height: 150px;
+    margin-top: -120px;
+    margin-left: 430px;
+    border-radius: 50px;
+    border: pink dotted 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 35%;
+  }
+
+  .all .mochi img {
+    border-radius: 150%;
+    border: greenyellow solid 10px;
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+  }
+
+  .body {
+    width: 250px;
+    margin-left: -100px;
+    position: relative;
+    height: 334px;
+    border: rgb(141, 183, 237) solid 5px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 -120px;
+    margin-bottom: -230px;
+    position: absolute;
+    background-color: white;
+  }
+
+  .body h2 {
+    font-size: 30px;
+  }
+
+  .all .body p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+
+  .body img {
+    width: 70px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 160px;
+  }
+
+  .all {
+    width: 200px;
+    height: 589px;
+  }
+
+  .side {
+    width: 40vw;
+    height: 589px;
+    border-right: greenyellow solid 10px;
+    background: url(bag.webp);
+    margin-top: -8px;
+    margin-left: -80px;
+  }
+
+  .all .title {
+    font-size: 21px;
+    margin-left: -80px;
+    margin-top: 30px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .all p {
+    position: absolute;
+    font-family: take;
+    color: hotpink;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c52c50;
+    margin-top: -40px;
+    font-size: 19px;
+    margin-left: 20px;
+  }
+
+  .option {
+    position: relative;
+    bottom: 270px;
+  }
+
+  .option li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .option ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 21px;
+  }
+
+  .aall {
+    width: 20vw;
+    height: 589px;
+  }
+
+  .aside {
+    width: 40vw;
+    height: 2400px;
+    border-right: greenyellow solid 10px;
+    background: url(bag.webp);
+    margin-top: -8px;
+    margin-left: -80px;
+  }
+
+  .aall .atitle {
+    font-size: 21px;
+    margin-left: -110px;
+    margin-top: 10px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .aall .mochi img {
+    border-radius: 150%;
+    border: greenyellow solid 10px;
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+  }
+
+  .aoption {
+    position: relative;
+    bottom: 2331px;
+  }
+
+  .aoption li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .aoption ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 21px;
+  }
+
+  .aboutus {
+    position: absolute;
+    top: 750px;
+  }
+
+  .aboutus .lisa {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(143, 47, 181);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(90, 45, 126);
+    margin-bottom: -50px;
+    border: 3px solid rgb(139, 19, 190);
+    margin-left: -460px;
+    width: 250px;
+    background: url(lisabg.jpeg);
+    height: 1070px;
+    border-radius: 20px;
+  }
+
+  .aboutus .lisa .ulisa {
+    margin-left: 20px;
+    background-color: white;
+    width: 170px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+
+  .aboutus .mercy {
+    font-family: take;
+    font-size: 20px;
+    color: rgb(0, 106, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(47, 64, 159);
+    margin-top: 107px;
+    border: 3px solid rgb(53, 23, 222);
+    margin-left: -460px;
+    width: 250px;
+    background: url(meecybg.jpeg);
+    height: 1090px;
+    border-radius: 20px;
+  }
+
+  .aboutus .mercy .umecy {
+    margin-left: 20px;
+    background-color: white;
+    width: 170px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+  }
+
+  .call {
+    width: 20vw;
+    height: 589px;
+  }
+
+  .cside {
+    width: 40vw;
+    height: 589px;
+    border-right: greenyellow solid 10px;
+    background: url(bag.webp);
+    margin-top: -8px;
+    margin-left: -80px;
+  }
+
+  .call .ctitle {
+    font-size: 21px;
+    margin-left: -85px;
+    margin-top: -70px;
+    position: absolute;
+    font-family: pork;
+    color: pink;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ba6565;
+    border-radius: 20px;
+    outline-color: white;
+  }
+
+  .call .mochi img {
+    border-radius: 150%;
+    border: greenyellow solid 10px;
+    width: 120px;
+    height: auto;
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+  }
+
+  .coption {
+    position: relative;
+    bottom: 650px;
+  }
+
+  .coption li {
+    list-style-type: none;
+    margin-left: -40px;
+    margin-top: 20px;
+    font-family: cheri;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    border: rgb(255, 255, 145) solid 5px;
+  }
+
+  .coption ul li a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+    font-size: 21px;
+  }
+
+  .credits {
+    width: 250px;
+    margin-left: 190px;
+    position: relative;
+    height: 450px;
+    border: rgb(141, 183, 237) solid 5px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 -120px;
+    margin-top: -1020px;
+    position: absolute;
+    background-color: white;
+  }
+
+  .credits img {
+    width: 50px;
+    height: auto;
+    margin-left: 190px;
+    margin-top: -50px;
+  }
+
+  .credits p {
+    font-family: banana;
+    font-size: 20px;
+    color: rgb(218, 238, 190);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #52b86d;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .credits li {
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: -10px;
+    font-family: love;
+
+    width: 180px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .credits a {
+    text-decoration: none;
+    color: rgb(126, 188, 227);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3a5673;
+  }
+
+  .photo img {
+    width: 160px;
+    height: 110px;
+    margin-top: 35px;
+    margin-left: 42px;
+    border-radius: 50px;
+    border: pink dotted 5px;
+  }
+}
